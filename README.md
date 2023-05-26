@@ -1,2 +1,2 @@
-# Reservation-des-salle-TP
-Réservation des salle TP universitaire
+# TP-room-booking-website
+Reservation site for university practical work rooms
