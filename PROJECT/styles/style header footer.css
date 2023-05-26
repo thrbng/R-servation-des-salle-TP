@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #329245;
+    background-color: #282828;
+    min-height: 12vh;
+}
+.tawjihi {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background-color: #282828;
+    min-height: 18vh;
+}

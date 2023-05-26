@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles/style header footer.css">
+    <link rel="stylesheet" href="styles/style admin.css">
+    <link rel="icon" href="images/logo-trs.png">
+    <title>Tawjihi admin</title>
+</head>
+<body>
+    <header>
+        <a href="admin.html" class="tawjihi">TAWJIHI</a>
+    </header>
+
+    <nav>
+        <a href="admin_s.php">Statistics</a>
+        <a href="admin_t.php">Teachers</a>
+        <a href="admin_g.php">Groups</a>
+        <a href="admin_r.php">Rooms</a>
+    </nav>
+
+    <main style="flex-direction: column;">
+        <h1 class="wlc">WELCOME ADMIN</h1>
+        <form action="php/authenticationout.php" method="post">
+            <button class="logout" type="submit">Log-out ?</button>
+        </form>
+    </main>
+
+    <footer>
+        <p class="copyright">Copyright © 2023</p>
+        <p class="univf">University of Mustapha Stambouli Mascara</p>
+    </footer>
+</body>
+</html>

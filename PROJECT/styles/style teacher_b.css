@@ -1,0 +1,55 @@
+.book{
+    display: flex;
+}
+.booka{
+    margin-right: 10px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    background-color: #eee;
+    min-width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+}
+.bookr{
+    margin-left: 10px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    background-color: #eee;
+    min-width: 300px;
+    min-height: 350px;
+    border-radius: 10px;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.h2a{
+    margin-bottom: 10px;
+}
+.slct{
+    margin-bottom: 10px;
+}
+select{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 10px;
+}
+option{
+    text-align: center;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 10px 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+}

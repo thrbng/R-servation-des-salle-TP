@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    background-image: url("../images/background.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70vh;
+}
+.cnx {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    padding: 50px 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.signinh {
+    border-bottom: 1px solid;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.signin label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.signin input {
+    padding: 4px 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+}
+#email {
+    margin-bottom: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.btns {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+.btns:hover {
+    background-color: black;
+    color: white;
+}
+.btng {
+    text-align: center;
+    margin-top: 20px;
+}
+.btng p {
+    font-size: 17px;
+    font-weight: bolder;
+}
+.btng a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    transition-duration: 0.4s;
+}
+.btng a:hover {
+    color: #329245;
+}

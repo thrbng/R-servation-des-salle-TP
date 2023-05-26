@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style header footer.css">
+    <link rel="stylesheet" href="styles/style index.css">
+    <link rel="icon" href="http://localhost/PROJECT/images/logo-trs.png">
+    <title>Tawjihi login</title>
+</head>
+<body>
+    <header>
+        <p class="tawjihi">TAWJIHI</p>
+    </header>
+
+    <main>
+        <div class="cnx">
+            <h2 class="signinh">Sign In</h2>
+            <div class="signin">
+                <form name="loginf" class="form" action="php/authentication.php" method="post">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Put youre email" required>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Put youre password" required>
+                    <div class="buttons">
+                        <button type="submit" class="btns">Sign-In</button>
+                        <p class="btng">Are you a student ?<br>Sign-in as a <a href="guest.html">guest</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copyright">Copyright © 2023</p>
+        <p class="univf">University of Mustapha Stambouli Mascara</p>
+    </footer>
+    
+</body>
+</html>

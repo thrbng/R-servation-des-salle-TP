@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btnh {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #329245;
+}
+.btnh:hover {
+    background-color: #228f38;
+}
+
+main {
+    background: url("../images/background.png");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 800;
+    min-height: 70vh;
+}
+.maind{
+    display: flex;
+    flex-direction: row;
+}
+.maind div{
+    display: flex;
+}
+.icond{
+    height: 80px;
+}
+.btnd{
+    height: 130px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pdf{
+    margin-right: 20px;
+}
+.excel{
+    margin-left: 20px;
+}

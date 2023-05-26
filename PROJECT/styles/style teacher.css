@@ -1,0 +1,75 @@
+.tawjihi {
+    text-decoration: none;
+    color: #329245;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(128, 128, 128);
+    min-height: 8vh;
+    padding: 0 60vh;
+}
+nav a {
+    padding: 8px 20px;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 10px;
+}
+
+main {
+    background: url("../images/background.png");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 800;
+    min-height: 62vh;
+}
+.wlc {
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+.logout {
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(128, 128, 128);
+    color: #000;
+    font-size: large;
+}
+
+.maind{
+    display: flex;
+    flex-direction: row;
+}
+.maind div{
+    display: flex;
+}
+.icond{
+    height: 80px;
+}
+.btnd{
+    height: 130px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.pdf{
+    margin-right: 20px;
+}
+.excel{
+    margin-left: 20px;
+}
